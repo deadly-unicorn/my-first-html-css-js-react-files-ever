@@ -69,3 +69,18 @@ function calculateDif(num1,num2){
 
 console.log(calculateSum(35,20))
 console.log(calculateDif(20,35))
+
+
+function displayArray(array){
+    return array
+}
+
+var Jonathann = ["Deagle","AWP","Headshot"]
+console.log(displayArray(Jonathann))
+
+console.log("the best gun is " + displayArray(Jonathann[1]))
+
+function displayContents(array){
+    return array[0] +" "+ array[1]+" " + array [2]
+}
+console.log (displayContents(Jonathann))
