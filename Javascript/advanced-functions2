@@ -1,0 +1,27 @@
+function stonedAtMidnight(text){
+    for (let i=0;i<2;i++,text++){
+        console.log(i+" time(s) stoned "+text)
+    }
+}
+stonedAtMidnight(2)
+
+console.log("~~~~~~")
+
+function stonedAtMidnight4(exercise,times){
+    for (let i=1;i<=times;i++){
+        console.log(i+" "+exercise+" done")
+    }
+    console.log("Done!")
+    console.log("~~~~")
+}
+
+stonedAtMidnight4("Jump(s) off the wall",2)
+stonedAtMidnight4("spider cool(s)",3)
+
+function drawLine(length){
+    console.log("^")
+    for (let i=0;i<length;i++){
+        console.log("|")
+    }
+}
+drawLine(5)
