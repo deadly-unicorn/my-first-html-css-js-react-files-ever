@@ -25,3 +25,43 @@ function drawLine(length){
     }
 }
 drawLine(5)
+var a=0
+var b=0
+
+function findNumber(list1,numSearch1,list2,numSearch2){
+    if (list1.length>=list2.length){
+        for (let i=0;i !==list1.length;i++){
+            if (list1[i]===numSearch1){
+                console.log("Your number is in the 1st list! Congratulations")
+                console.log("It is the "+(1+i)+"th item")
+                a=1
+            }
+            if(list2[i]===numSearch2){
+                console.log("Your number is in the 2nd list! Congratulations")
+                console.log("It is the "+(1+i)+"th item")
+                b=1
+            }
+        }
+    }
+    else{
+        for (let i=0;i !==list1.length;i++){
+            if (list1[i]===numSearch1){
+                console.log("Your number is in the 1st list! Congratulations")
+                console.log("It is the "+(1+i)+"th item")
+                a=1
+            }
+            if(list2[i]===numSearch2){
+                console.log("Your number is in the 2nd list! Congratulations")
+                console.log("It is the "+(1+i)+"th item")
+                b=1
+            }
+    }
+    }
+    if(a+b!==2){
+    console.log("there's some number not in a list you wanted to search")
+    }
+    }
+
+list1=[42,23,11,09,12,42,55,66,1123]
+list2=[22,123,11,2,32334,211,42,114,21,21]
+findNumber(list1,42,list2,42) ///it would be kinda better tbh to just run the same function with different lists each time and not add the second list in the same code lol
