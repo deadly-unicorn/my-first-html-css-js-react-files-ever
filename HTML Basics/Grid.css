@@ -1,0 +1,105 @@
+.gridContainer{
+    background-color:rgba(0, 26, 255, 0.295) ;
+    display: grid;
+    border: blue dashed;
+    grid-template-columns: 1fr repeat(2,2fr);
+    row-gap: 10px;
+    column-gap: 15px;
+}
+
+.gridItem{
+    font-size: 20px;
+    color: gray;
+    background-color: rgba(255, 0, 0, 0.322);
+    border: red dashed
+    
+}
+
+.gridContainer2{
+    background-color:rgba(9, 255, 0, 0.295) ;
+    display: grid;
+    border: blue dashed;
+    grid-template: 1fr 1fr/ 1fr 2fr 1fr;
+    gap: 5px 20px
+  
+}
+
+.gridContainer3{
+    background-color:rgba(255, 0, 149, 0.295) ;
+    display: grid;
+    border: rgb(238, 0, 218) dashed;
+    grid-template-areas: 
+    "first1 first1 . "
+    "first2 . first3";
+    gap: 10px;
+  
+}
+
+.gridItem1{
+    font-size: 20px;
+    color: gray;
+    background-color: rgba(255, 0, 0, 0.322);
+    border: red dashed;
+    grid-row: span 2;
+}
+
+.gridItem1-1{
+    font-size: 20px;
+    color: gray;
+    background-color: rgba(255, 0, 0, 0.322);
+    border: red dashed;
+    grid-area: first1;
+}
+
+.gridItem2{
+    font-size: 20px;
+    color: rgb(68, 0, 255);
+    background-color: rgba(255, 0, 0, 0.322);
+    border: red dashed;
+    grid-area: first2;
+}
+
+.gridItem3{
+    font-size: 20px;
+    color: rgb(0, 255, 55);
+    font-weight: bold;
+    text-shadow: rgb(2, 70, 17) 1px 1px;
+    background-color: rgba(255, 0, 0, 0.322);
+    border: red dashed;
+    grid-area: first3;
+
+}
+
+.gridContainer4{
+    margin-top: 15px;
+    background-color:rgba(11, 56, 255, 0.295) ;
+    display: grid;
+    border: rgb(131, 0, 238) dashed;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: right;
+    text-align: center;
+}
+
+.toppage{
+    margin-top: 15px;
+    background-color:rgba(11, 56, 255, 0.295) ;
+    display: grid;
+    border: rgb(131, 0, 238) dashed;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: right;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
