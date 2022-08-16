@@ -1,0 +1,60 @@
+.header{
+    height: 100px;
+    width: auto;
+    background-color: wheat;
+    text-align: center;
+    align-items: center;
+    justify-content: right;
+}
+
+.htmlC{
+    height: auto;
+    background-color: aquamarine;
+}
+
+.border{
+    border: solid red;
+    padding: 5px;
+    
+}
+
+.flexDisp{
+    display: flex;
+}
+
+.fancyButton{
+    border: solid red;
+    background-color: rgba(240, 248, 255, 0);
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+    text-shadow: -1px 1px black;
+    height: 100%;
+
+    
+}
+.fancyButton:focus{
+    font-size: 45px;
+    width: auto;
+    height: auto;
+    border: solid red;
+    border-radius: 30px;
+    background-color: rgb(218, 195, 151);
+    border-left-color: blue;
+}
+
+.flexItem1{
+    border: solid cyan;
+    height: auto;
+}
+
+.linkNoColour{
+    text-decoration: none;
+    color: white;
+}
+
+.linkNoColour:hover{
+    color: rgb(200, 229, 255);
+    text-shadow: 2px 2px black;
+    text-decoration: underline;
+    
+}
