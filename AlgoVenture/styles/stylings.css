@@ -1,0 +1,58 @@
+.backgroundHtml{
+    /*background: radial-gradient(circle, blue 0%,green 75%,red 100%);*/
+    background: radial-gradient(circle, blue -45%, rgb(123, 66, 215) 99%);
+    
+}
+
+.backgroundHeader{
+   
+    background: red;
+    
+}
+
+.inspectBorder{
+    border: solid rgb(0, 255, 26);
+}
+
+.height{
+
+}
+
+.buttonA{
+    border: none;
+    background: transparent;
+}
+
+.buttonA:focus{
+    background-color: rgba(41, 44, 47, 0.241);
+    border-radius: 12px;
+}
+
+.linkA{
+    text-decoration: none;
+}
+.linkA:hover{
+    background:linear-gradient(270deg, green 0%,red 100%);
+}
+
+.headerText{
+    font-size: 42px;
+    color: white;
+    text-shadow: -1px 2px black;
+}
+
+.gridA{
+    display: grid;
+    grid-template-columns:
+    1fr 2fr 1fr;
+}
+
+.flexCenter{
+    display: flex;
+    justify-content: center;
+}
+
+.flexRight{
+    display: flex;
+    justify-content: right;
+}
