@@ -15,7 +15,7 @@
 }
 
 .height{
-
+    height: auto;
 }
 
 .buttonA{
@@ -138,4 +138,8 @@
     animation: infinite;
     animation-name: mlg;
     animation-duration: 1s;
+}
+
+.backgroundNew{
+    background-color: green;
 }
