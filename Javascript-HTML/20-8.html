@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<head>
+    <title>
+        yo
+    </title>
+</head>
+
+<html>
+    
+    <body>
+        <h1>Hello from the future...</h1>
+        
+        
+        <p>This was not supposed to be visible. But as you can see it is not invisible.</p>
+        <p>there is going to be a list under this one</p>
+        <ol>
+
+            <li class="coolText">
+                yo
+            </li>
+
+            <li>
+                how was your day
+            </li>
+            
+            <li class="coolText verygood">
+                tell me everything about it
+            </li>
+            
+            
+            <br>
+            <span>here is the span element</span>
+        </ol>
+        
+        
+        <div>
+            <h3>
+                That's so cool 0
+            </h3>
+        </div>
+        
+        
+        <div>
+            <h1 class="verygood">
+                displaying H1 element
+            </h1>
+        </div>
+
+        <div>
+            <h2>
+                displaying H2 ELEMENT number 1
+            </h2>
+        </div>
+
+        <div>
+            <h2 class="verygood">
+                displaying H2 element  number 2
+            </h2>
+        </div>
+
+        
+    </body>
+
+    <style>
+        p{
+            font-size: 30px;
+        }
+
+        ol{
+            font-size: 27px;
+        }
+        .coolText{
+            width: max-content;
+            border: solid 2px;
+            border-radius: 6px;
+            border-color: cyan;
+            background-color: violet;
+            box-shadow: red 2px 2px;
+        }
+
+        .verygood{
+            font-family: 'Courier New', Courier, monospace;
+            box-shadow: greenyellow 6px 4px ;
+            width: max-content;
+        }
+    </style>
+
+    <script>
+        let listItems= document.getElementsByTagName("li")
+        let spanElement = document.querySelector("span")
+        //spanElement.innerHTML = listItems.length
+        //listItems[1].innerText ="welp we did it."
+        //spanElement.innerText=listItems[2].innerText
+    
+        ///collecting elements based on their attributes e.x. class
+
+        let coolTextElement = document.getElementsByClassName("coolText verygood")
+        //spanElement.innerText=coolTextElement.length
+        //spanElement.innerText=coolTextElement[1].innerText
+        //coolTextElement[1].innerText="you are doomed:)"
+        
+        
+        //if there is an error in our script code then further lines of it won't execute!!!
+        //
+        // 
+        coolTextElement[0].innerText='"Scripts are running" = True'
+
+
+        let divEl = document.querySelectorAll("div")
+        let div1=divEl[1]
+        ///div1.innerText=<h1>"That's so cool 1</h1>"
+        //let  numberOfH ;
+        function changeHeading(numberOfH,i){
+
+            let allHeadingElements = document.querySelectorAll("h"+numberOfH);
+            // we can use querySelectorAll("h3 .fancText") like this, to select all the h3with this class
+            //spanElement.innerText=div1.innerHTML
+            //spanElement.innerText="function runs"
+            spanElement.innerText=allHeadingElements[i].innerHTML
+            
+        }
+
+        //changeHeading(2,1)
+        //const fancOrVeryGood=document.querySelectorAll(".coolText, .verygood")
+        //const fancOrVeryGood=document.querySelectorAll("li.coolText.verygood.cool,.verygood")
+        //spanElement.innerHTML=fancOrVeryGood[2].outerHTML
+    </script>
+</html>
