@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html class="def">
+    <div style="text-align: center;">
+        <img id="1" src="https://i1.sndcdn.com/avatars-000282536343-6h6ce2-t240x240.jpg" width="400px">
+        <br>
+        <span class="spanText" id="span1">Don't touch the doggo</span>
+    </div>
+<script>
+    let i=1
+    let doggoImage=document.getElementById("1")
+
+
+    const curse =()=>{
+        document.querySelector("html").classList.remove("def")
+        document.querySelector("html").classList.add("backGround")
+        document.querySelector("img").src="https://s36700.pcdn.co/wp-content/uploads/2015/09/zombie-muzzle-image.jpg.optimal.jpg"
+        document.querySelector("img").width="600"
+        document.querySelector("img").height="400"
+        document.querySelector("span").innerText="I HAD WARNED YOU"
+        document.querySelector("span").classList.add("cursedText")
+        document.querySelector("span").classList.remove("spanText")
+       
+    }
+    
+    
+    const clear =()=>{
+        document.querySelector("html").classList.add("def")
+        document.querySelector("html").classList.remove("backGround")
+        document.querySelector("img").src="https://i1.sndcdn.com/avatars-000282536343-6h6ce2-t240x240.jpg"
+        document.querySelector("img").width="400"
+        document.querySelector("span").innerText="Don't touch the doggo"
+        document.querySelector("span").classList.remove("cursedText")
+        document.querySelector("span").classList.add("spanText")
+        
+    }
+    
+    doggoImage.addEventListener("touchend",clear)
+    doggoImage.addEventListener("touchstart",curse)
+</script>
+<style>
+    .def{
+        background-color: white;
+    }
+    .backGround{
+        background-color: black;
+    }
+    .cursedText{
+        background-color: red;
+        color: black;
+        font-size: 4vh;
+    }
+    .spanText{
+        color: red;
+        background-color: yellow;
+        font-size: 4vh;
+    }
+</style>
+</html>

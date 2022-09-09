@@ -1,0 +1,22 @@
+.boldClass{
+    font-weight: 900;
+    font-variant: small-caps;
+}
+
+html{
+    font-size: 2vh;
+}
+
+.yellow{
+    color: yellow;
+    background-color: green;
+    width: max-content;
+}
+
+.WARNING{
+    background-color: black;
+    color: red;
+    text-shadow: 1px 1px;
+    font-size: 5vh;
+    width: 100%;
+}
