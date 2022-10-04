@@ -1,0 +1,59 @@
+.backgroundHead{
+    background-color: rgb(6, 6, 92);
+    height: 5vh;
+}
+
+.borderThing{
+    border: red   2px ;
+
+}
+
+.textColour{
+    color: aliceblue;
+    font-size: 2.5vh;
+}
+
+.flexDisp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexItem{
+    height: auto;
+    
+}
+
+
+.alignLeft{
+    text-align: left;
+}
+
+
+.alignRight{
+    justify-self: right;
+    margin-left: auto;
+}
+
+.alignCenter{
+    justify-self: center;
+    margin-left: 30%;
+}
+
+.buttCont{
+    background-color: transparent;
+    border:none;
+}
+
+
+.minCont,.imgClick{
+    height: 2vh;
+    filter: invert(80%) sepia(40%)  saturate(1600%) hue-rotate(200deg);
+}
+
+.imgClick:active{
+    filter: invert(80%) sepia(40%)  saturate(1600%) hue-rotate(200deg) brightness(1.2);
+}
+
+
