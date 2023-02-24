@@ -1,1 +1,1 @@
-# html
+Apparently the index.hmtl file contain links for all of the other files. That was a smart idea of mine, that way I can clearly see the order I've learnt some things all in one position, and everything is a bit more organized, than just having random files in a folder.
